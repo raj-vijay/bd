@@ -29,7 +29,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Big Data Processing](#Big Data)
+* [Big Data Processing](#BigData)
 * [Repositories](#Repositories)
   * [Prerequisites](#prerequisites)
 * [References](#References)
@@ -43,7 +43,7 @@ Data is now being generated at an unprecedented rate. The volume, velocity and v
 
 Big data processing uses distributed architectures, frameworks and algorithms to store, manage and analyse large-scale datasets. This covers scenarios involving both static data and data in motion performing real-time data analytics.
 
-Apache Spark has its architectural foundation in the resilient distributed dataset (RDD), a read-only multiset of data items distributed over a cluster of machines, that is maintained in a fault-tolerant way. The Dataframe API was released as an abstraction on top of the RDD, followed by the Dataset API. In Spark 1.x, the RDD was the primary application programming interface (API), but as of Spark 2.x use of the Dataset API is encouraged[3] even though the RDD API is not deprecated. The RDD technology still underlies the Dataset API.
+Apache Spark has its architectural foundation in the resilient distributed dataset (RDD), a read-only multiset of data items distributed over a cluster of machines, that is maintained in a fault-tolerant way. The Dataframe API was released as an abstraction on top of the RDD, followed by the Dataset API. In Spark 1.x, the RDD was the primary application programming interface (API), but as of Spark 2.x use of the Dataset API is encouraged even though the RDD API is not deprecated. The RDD technology still underlies the Dataset API.
 
 <!-- REPO -->
 ### Repositories
